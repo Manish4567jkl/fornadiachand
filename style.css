@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    background-color: pink;
 }
 
 .logo{
@@ -257,4 +258,27 @@
 
 .login-register p a:hover{
     text-decoration: underline;
+}
+
+body {
+    background: none;
+}
+
+/* Adjust the wrapper styles */
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px 10px 40px 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform 0.5s ease, height 0.2s ease;
 }
